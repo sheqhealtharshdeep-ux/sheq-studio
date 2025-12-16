@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sheq Studio: Strategy-led healthcare branding & digital growth for clinics, wellness brands, and care founders. Build trust-first brands that convert." />
+  <meta name="keywords" content="healthcare branding, clinic marketing, wellness branding, healthcare websites, digital strategy" />
+  <meta name="author" content="Sheq Studio" />
+  <meta name="robots" content="index, follow" />
+  
+  <title>Sheq Studio | Healthcare Branding & Digital Growth Studio</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    * {
+      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .hero-gradient {
+      background: linear-gradient(135deg, #0e1d35 0%, #1a2d4d 100%);
+    }
+
+    .card-hover {
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .card-hover:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 24px 48px rgba(0, 0, 0, 0.12);
+    }
+
+    .btn-primary {
+      @apply px-8 py-3.5 bg-[#0e1d35] text-white rounded-lg font-semibold text-sm transition duration-300 hover:bg-[#1a2d4d] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0e1d35];
+    }
+
+    .btn-secondary {
+      @apply px-8 py-3.5 bg-transparent border-2 border-[#0e1d35] text-[#0e1d35] rounded-lg font-semibold text-sm transition duration-300 hover:bg-[#0e1d35] hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0e1d35];
+    }
+
+    .btn-light {
+      @apply px-8 py-3.5 bg-white text-[#0e1d35] rounded-lg font-semibold text-sm transition duration-300 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white;
+    }
+
+    .section-title {
+      @apply text-3xl md:text-4xl font-bold text-slate-900 leading-tight;
+    }
+
+    .section-subtitle {
+      @apply text-base md:text-lg text-slate-600 leading-relaxed;
+    }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-900">
+  <!-- Skip to content link (accessibility) -->
+  <a href="#main-content" class="sr-only">Skip to main content</a>
+
+  <!-- NAVIGATION -->
+  <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-md border-b border-slate-200/50 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex items-center justify-between">
+        <!-- Logo / Brand -->
+        <a href="index.html" class="flex flex-col leading-tight">
+          <span class="text-xl font-bold text-slate-900">Sheq Studio</span>
+          <span class="text-xs uppercase tracking-wider text-slate-500 font-medium">Healthcare Branding</span>
+        </a>
+
+        <!-- Nav Links -->
+        <div class="hidden md:flex items-center gap-8">
+          <a href="services.html" class="text-slate-700 hover:text-slate-900 font-medium text-sm transition">
+            Services
+          </a>
+          <a href="about.html" class="text-slate-700 hover:text-slate-900 font-medium text-sm transition">
+            About
+          </a>
+          <a href="contact.html" class="btn-primary text-xs">
+            Book a Call
+          </a>
+        </div>
+
+        <!-- Mobile menu button (placeholder) -->
+        <button class="md:hidden text-slate-900 p-2">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero-gradient pt-32 pb-20 px-4 sm:px-6 lg:px-8 text-white" id="main-content">
+    <div class="max-w-6xl mx-auto">
+      <div class="max-w-3xl">
+        <p class="text-sm uppercase tracking-widest text-slate-300 font-semibold mb-4">
+          Strategic Healthcare Branding Studio
+        </p>
+        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+          Building healthcare brands people trust.
+        </h1>
+        <p class="text-lg sm:text-xl text-slate-200 mb-8 leading-relaxed max-w-2xl">
+          Strategy-led branding, websites, and digital growth systems for clinics, wellness brands, and care-led founders who value clarity, ethics, and refined design.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+          <a href="contact.html" class="btn-light">
+            Book a Discovery Call
+          </a>
+          <a href="services.html" class="px-8 py-3.5 border-2 border-white text-white rounded-lg font-semibold text-sm transition duration-300 hover:bg-white/10">
+            See Our Services
+          </a>
+        </div>
+        <p class="text-sm text-slate-300 mt-6">
+          Trusted by clinics, dermatology practices, wellness brands, and health founders across India.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM / CLARITY SECTION -->
+  <section class="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <div class="max-w-3xl mb-12">
+        <h2 class="section-title mb-4">
+          Healthcare brands struggle with clarity, not competence.
+        </h2>
+        <p class="section-subtitle">
+          Most clinics and wellness brands have excellent care, but their brand presence doesn't reflect that. Patients can't understand your value, so they default to price or proximity.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Problem card 1 -->
+        <div class="p-6 border border-slate-200 rounded-xl bg-slate-50 hover:bg-white card-hover">
+          <div class="w-10 h-10 rounded-lg bg-[#0e1d35] flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-slate-900 mb-2">Inconsistent patient flow</h3>
+          <p class="text-slate-600 text-sm">
+            Leads come in waves. No predictable system or clear funnel from discovery to booking.
+          </p>
+        </div>
+
+        <!-- Problem card 2 -->
+        <div class="p-6 border border-slate-200 rounded-xl bg-slate-50 hover:bg-white card-hover">
+          <div class="w-10 h-10 rounded-lg bg-[#0e1d35] flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-slate-900 mb-2">Scattered online presence</h3>
+          <p class="text-slate-600 text-sm">
+            Website, social, and Google listing don't feel connected. Patients see fragmentation, not clarity.
+          </p>
+        </div>
+
+        <!-- Problem card 3 -->
+        <div class="p-6 border border-slate-200 rounded-xl bg-slate-50 hover:bg-white card-hover">
+          <div class="w-10 h-10 rounded-lg bg-[#0e1d35] flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-slate-900 mb-2">Generic content that doesn't convert</h3>
+          <p class="text-slate-600 text-sm">
+            Posts look like every other clinic. Patients scroll past instead of feeling uniquely seen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION / WHY SHEQ SECTION -->
+  <section class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid lg:grid-cols-2 gap-12 items-start">
+        <div>
+          <h2 class="section-title mb-4">
+            Sheq Studio: Strategy before design.
+          </h2>
+          <p class="section-subtitle mb-6">
+            We start with positioning, patient psychology, and brand clarity — then design and content systems follow naturally.
+          </p>
+          <p class="text-slate-600 mb-6">
+            Built by a clinician-turned-strategist, we understand healthcare ethics, trust-building, and the emotional reality of patient decisions. We're not a loud agency; we're a strategic partner focused on calm, predictable growth.
+          </p>
+          <a href="services.html" class="btn-primary inline-block">
+            See Our Services
+          </a>
+        </div>
+
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div class="p-5 rounded-lg border border-slate-200 bg-white hover:shadow-md card-hover">
+            <h3 class="font-semibold text-slate-900 mb-2 text-sm">Healthcare-first thinking</h3>
+            <p class="text-slate-600 text-xs">
+              Deep respect for patient trust, compliance, and the emotional journey of care.
+            </p>
+          </div>
+          <div class="p-5 rounded-lg border border-slate-200 bg-white hover:shadow-md card-hover">
+            <h3 class="font-semibold text-slate-900 mb-2 text-sm">Strategy before aesthetics</h3>
+            <p class="text-slate-600 text-xs">
+              Positioning and patient journeys inform every design decision.
+            </p>
+          </div>
+          <div class="p-5 rounded-lg border border-slate-200 bg-white hover:shadow-md card-hover">
+            <h3 class="font-semibold text-slate-900 mb-2 text-sm">Ethical, trust-based approach</h3>
+            <p class="text-slate-600 text-xs">
+              No fear tactics. Clear, calm communication that respects medical values.
+            </p>
+          </div>
+          <div class="p-5 rounded-lg border border-slate-200 bg-white hover:shadow-md card-hover">
+            <h3 class="font-semibold text-slate-900 mb-2 text-sm">Long-term partnership</h3>
+            <p class="text-slate-600 text-xs">
+              We grow with your brand as your practice evolves and scales.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION -->
+  <section class="py-20 px-4 sm:px-6 lg:px-8 bg-[#0e1d35] text-white">
+    <div class="max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">
+        Ready to build a brand that actually works?
+      </h2>
+      <p class="text-lg text-slate-200 mb-8">
+        Share where your clinic or brand is today. We'll suggest a focused first step — no pressure, no hard sell.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="contact.html" class="btn-light">
+          Book a Discovery Call
+        </a>
+        <a href="services.html" class="px-8 py-3.5 border-2 border-white text-white rounded-lg font-semibold text-sm transition duration-300 hover:bg-white/10">
+          Explore Services
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-950 text-slate-400 py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto">
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+        <div>
+          <h3 class="font-semibold text-white mb-4">Sheq Studio</h3>
+          <p class="text-sm">
+            Healthcare branding and digital growth studio for clinics, wellness brands, and care founders.
+          </p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Pages</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+            <li><a href="services.html" class="hover:text-white transition">Services</a></li>
+            <li><a href="about.html" class="hover:text-white transition">About</a></li>
+            <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white mb-4">Get in Touch</h4>
+          <p class="text-sm">
+            <a href="mailto:sheqstudio@gmail.com" class="hover:text-white transition">
+              sheqstudio@gmail.com
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="border-t border-slate-800 pt-8 flex flex-col sm:flex-row justify-between items-center text-xs">
+        <p>&copy; 2025 Sheq Studio. All rights reserved.</p>
+        <div class="flex gap-6 mt-4 sm:mt-0">
+          <a href="#" class="hover:text-white transition">Privacy Policy</a>
+          <a href="#" class="hover:text-white transition">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Accessibility: Screen reader only content -->
+  <style>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+  </style>
+</body>
+</html>
